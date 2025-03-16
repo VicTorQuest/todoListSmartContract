@@ -6,8 +6,8 @@ const main = async ()=> {
     console.log("Account Balance ", accountBalance.toString());
 
 
-    const FeedbackContractFactory = await hre.ethers.getContractFactory("Feedback");
-    const feedbackContract = await FeedbackContractFactory.deploy();
+    const todoListContractFactory = await hre.ethers.getContractFactory("todoList");
+    const feedbackContract = await todoListContractFactory.deploy();
 
     await feedbackContract.waitForDeployment();
     console.log("Contract deployed to:", feedbackContract.target);
