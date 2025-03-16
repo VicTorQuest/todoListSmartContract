@@ -25,7 +25,7 @@ A simple Solidity-based smart contract for managing a to-do list on the Ethereum
 
 
 ### How to Interact
-1. Go to the [Sepolia Etherscan contract page](https://sepolia.etherscan.io/address/0xYourContractAddress).
+1. Go to the [Sepolia Etherscan contract page](https://sepolia.etherscan.io/address/0x93027f1AF05BC281aB808Bf92A25c031ccC1799F#code).
 2. Use the **"Read Contract"** tab to view data (e.g., list todos).
 3. Use the **"Write Contract"** tab to interact with the contract (e.g., add or remove todos). Connect your wallet (e.g., MetaMask) to submit transactions.
 
